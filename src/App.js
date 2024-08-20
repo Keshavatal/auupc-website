@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { Home, About, Membership, Gallery, Contact } from './components';
-import { Menu, X} from 'lucide-react';
-
+import { Menu, X } from 'lucide-react';
 
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,23 +15,21 @@ const App = () => {
           <div className="container mx-auto px-4">
             <div className="flex justify-between items-center py-4">
               <Link to="/" className="flex items-center space-x-2">
-                    <img 
-                      src="https://i.ibb.co/zr3rTHY/AU-UNITED-PHOTOGRAPHY-CLUB-png-White.png" 
-                      alt="AU United Photography Club Logo" 
-                      className="h-12 w-auto"
-                    />
+                <img 
+                  src="https://i.ibb.co/zr3rTHY/AU-UNITED-PHOTOGRAPHY-CLUB-png-White.png" 
+                  alt="AU United Photography Club Logo" 
+                  className="h-12 w-auto"
+                />
                 <span className="text-2xl font-bold">AUUPC</span>
               </Link>
               <nav className="hidden md:flex space-x-6">
                 <NavLink to="/">Home</NavLink>
                 <NavLink to="/about">About</NavLink>
                 <NavLink to="/membership">Membership</NavLink>
-                {/* <NavLink to="/events">Events</NavLink> */}
                 <NavLink to="/gallery">Gallery</NavLink>
-                {/* <NavLink to="/contact">Contact</NavLink> */}
-                 <a href="https://www.instagram.com/au_united_photography_club" target="_blank" rel="noopener noreferrer">
-        Contact
-      </a>
+                <a href="https://www.instagram.com/au_united_photography_club" target="_blank" rel="noopener noreferrer">
+                  Contact
+                </a>
               </nav>
               <button className="md:hidden" onClick={toggleMenu}>
                 {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -47,7 +44,6 @@ const App = () => {
               <MobileNavLink to="/" onClick={toggleMenu}>Home</MobileNavLink>
               <MobileNavLink to="/about" onClick={toggleMenu}>About</MobileNavLink>
               <MobileNavLink to="/membership" onClick={toggleMenu}>Membership</MobileNavLink>
-              {/* <MobileNavLink to="/events" onClick={toggleMenu}>Events</MobileNavLink> */}
               <MobileNavLink to="/gallery" onClick={toggleMenu}>Gallery</MobileNavLink>
               <MobileNavLink to="/contact" onClick={toggleMenu}>Contact</MobileNavLink>
             </div>
@@ -55,14 +51,13 @@ const App = () => {
         )}
 
         <main className="flex-grow">
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/membership" component={Membership} />
-            {/* <Route path="/events" component={Events} /> */}
-            <Route path="/gallery" component={Gallery} />
-            <Route path="/contact" component={Contact} />
-          </Switch>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/membership" element={<Membership />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
         </main>
 
         <footer className="bg-gray-800 text-white py-8">
@@ -78,10 +73,11 @@ const App = () => {
                   <li><Link to="/about" className="hover:text-blue-300">About Us</Link></li>
                   <li><Link to="/membership" className="hover:text-blue-300">Join AUUPC</Link></li>
                   <li><Link to="/gallery" className="hover:text-blue-300">Gallery</Link></li>
-                  {/* <li><Link to="/contact" className="hover:text-blue-300">Contact Us</Link></li> */}
-                  <li> <a className="hover:text-blue-300" href="https://www.instagram.com/au_united_photography_club" target="_blank" rel="noopener noreferrer">
-        Contact Us
-      </a></li>
+                  <li>
+                    <a className="hover:text-blue-300" href="https://www.instagram.com/au_united_photography_club" target="_blank" rel="noopener noreferrer">
+                      Contact Us
+                    </a>
+                  </li>
                 </ul>
               </div>
               <div>
@@ -92,12 +88,11 @@ const App = () => {
                 <div className="flex space-x-4">
                   <a href="https://www.instagram.com/au_united_photography_club" target='_blank' rel="noopener noreferrer" className="hover:text-blue-300">AU United Photography Club</a>
                 </div>
-                
               </div>
             </div>
             <div className="mt-8 text-center">
               <p>&copy; 2024 AU United Photography Club. All rights reserved.</p>
-              <p>Designed and maintained by <a href="http://keshavatal.com.np"  target="_blank" rel="noopener noreferrer" className="hover:text-blue-300">Keshav Atal</a> </p>
+              <p>Designed and maintained by <a href="http://keshavatal.com.np" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300">Keshav Atal</a></p>
             </div>
           </div>
         </footer>
