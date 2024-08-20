@@ -92,7 +92,7 @@ const App = () => {
             </div>
             <div className="mt-8 text-center">
               <p>&copy; 2024 AU United Photography Club. All rights reserved.</p>
-              <p>Designed and maintained by <a href="http://keshavatal.com.np" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300">Keshav Atal</a></p>
+              <p>Designed and maintained by <a href="https://www.instagram.com/keshav.atal" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300">Keshav Atal</a></p>
             </div>
           </div>
         </footer>
