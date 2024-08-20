@@ -156,7 +156,7 @@ const photos = [
   { id: 88, src: "https://i.ibb.co/6m3rGQ2/1-1-Yuvaraj-M.webp", alt: "AUUPC", type: "all", eventId: 6 },
   { id: 89, src: "https://i.ibb.co/8jH5BYq/1723096196496-Jayanth.webp", alt: "AUUPC", type: "all", eventId: 6 },
   { id: 70, src: "https://i.ibb.co/9sRVw5q/1723096196552-Jayanth.webp", alt: "AUUPC", type: "all", eventId: 6 },
-  { id: 71, src: "https://i.ibb.co/9sRVw5q/1723096196552-Jayanth.webp", alt: "AUUPC", type: "all", eventId: 6 },
+  { id: 71, src: "https://i.ibb.co/dbkNkFG/20231103-164234-Helsa-Helsa.webp", alt: "AUUPC", type: "all", eventId: 6 },
   { id: 72, src: "https://i.ibb.co/x6JbtRk/1723096196629-Jayanth.webp", alt: "AUUPC", type: "all", eventId: 6 },
   { id: 73, src: "https://i.ibb.co/SsWfJ3x/IMG-20240715-162358-EATI-RUPENDRASRIVINAYGAR.webp", alt: "AUUPC", type: "all", eventId: 6 },
   { id: 74, src: "https://i.ibb.co/sbp0r1h/IMG-20240730-181424-1-Aakash-Kinthali.webp", alt: "AUUPC", type: "all", eventId: 6 },
