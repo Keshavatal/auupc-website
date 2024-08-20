@@ -24,8 +24,8 @@ const photos = [
   { id: 11, src: "https://i.ibb.co/rHr33gc/IMG-0358.webp", alt: "Aurora", type: "landscape", eventId: 1 },
   { id: 12, src: "https://i.ibb.co/JQmSjGt/IMG-0212.webp", alt: "Aurora", type: "landscape", eventId: 1 },
   { id: 13, src: "https://i.ibb.co/QMb2ZVg/IMG-0335.webp", alt: "Aurora", type: "landscape", eventId: 1 },
-  { id: 14, src: "https://i.ibb.co/ryw5Rhq/IMG-3325.webp", alt: "Aurora", type: "landscape", eventId: 1 },
-  { id: 15, src: "https://i.ibb.co/ryw5Rhq/IMG-3325.webp", alt: "Aurora", type: "landscape", eventId: 1 },
+  { id: 14, src: "https://i.ibb.co/XDX2xhL/297-DB0-B4-3-F0-A-4-D7-F-BBD8-908-CD47-D328-C.webp", alt: "Aurora", type: "landscape", eventId: 1 },
+  { id: 15, src: "https://i.ibb.co/NSKBf8w/IMG-0246.webp", alt: "Aurora", type: "landscape", eventId: 1 },
 
   // for Aurora fest or event id 1
   { id: 61, src: "https://i.ibb.co/rkmbJh5/IMG-1384.jpg", alt: "International", type: "all", eventId: 1 },
