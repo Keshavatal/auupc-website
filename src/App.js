@@ -39,7 +39,7 @@ const App = () => {
         </header>
 
         {isMenuOpen && (
-          <div className="md:hidden bg-blue-500 text-white">
+          <div className="md:hidden bg-black text-white">
             <div className="container mx-auto px-4 py-2">
               <MobileNavLink to="/" onClick={toggleMenu}>Home</MobileNavLink>
               <MobileNavLink to="/about" onClick={toggleMenu}>About</MobileNavLink>
