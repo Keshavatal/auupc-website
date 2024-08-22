@@ -27,8 +27,8 @@ const App = () => {
                 <NavLink to="/about">About</NavLink>
                 <NavLink to="/membership">Membership</NavLink>
                 <NavLink to="/gallery">Gallery</NavLink>
-                <a href="https://www.instagram.com/au_united_photography_club" target="_blank" rel="noopener noreferrer">
-                  Contact
+                <a href="https://forms.gle/ocXRiaHCJJVQ3L3C8" target="_blank" rel="noopener noreferrer">
+                  Survey
                 </a>
               </nav>
               <button className="md:hidden" onClick={toggleMenu}>
@@ -40,12 +40,12 @@ const App = () => {
 
         {isMenuOpen && (
           <div className="md:hidden bg-black text-white">
-            <div className="container mx-auto px-4 py-2">
+            <div className="container  mx-auto px-4 py-2">
               <MobileNavLink to="/" onClick={toggleMenu}>Home</MobileNavLink>
               <MobileNavLink to="/about" onClick={toggleMenu}>About</MobileNavLink>
               <MobileNavLink to="/membership" onClick={toggleMenu}>Membership</MobileNavLink>
               <MobileNavLink to="/gallery" onClick={toggleMenu}>Gallery</MobileNavLink>
-              <MobileNavLink to="/contact" onClick={toggleMenu}>Contact</MobileNavLink>
+              <MobileNavLink to="https://forms.gle/ocXRiaHCJJVQ3L3C8" target="_blank" onClick={toggleMenu}>Survey</MobileNavLink>
             </div>
           </div>
         )}
