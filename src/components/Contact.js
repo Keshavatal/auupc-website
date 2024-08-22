@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
   return (
     <div>
-      <link rel="stylesheet" href="https://www.instagram.com/au_united_photography_club" className="to" />
+      <link rel="stylesheet" href="https://forms.gle/ocXRiaHCJJVQ3L3C8" className="to" />
     </div>
   );
 };
