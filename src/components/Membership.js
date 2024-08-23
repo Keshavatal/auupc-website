@@ -11,7 +11,10 @@ const Membership = () => {
             Exciting News!
           </h3>
           <p className="text-xl font-semibold mb-4">
-            We are recruiting soon!
+            We are recruiting on 28th & 29th August 2024!
+          </p>
+          <p>
+            Venue: NCRC, Andhra University College of Engineering, Visakhapatnam
           </p>
           <p className="mb-4">
             Don't miss your chance to join AU United Photography Club.
