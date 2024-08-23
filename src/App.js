@@ -73,6 +73,7 @@ const App = () => {
                   <li><Link to="/about" className="hover:text-blue-300">About Us</Link></li>
                   <li><Link to="/membership" className="hover:text-blue-300">Join AUUPC</Link></li>
                   <li><Link to="/gallery" className="hover:text-blue-300">Gallery</Link></li>
+                  <li><Link to="https://forms.gle/ocXRiaHCJJVQ3L3C8" className="hover:text-blue-300">Survey Form</Link></li>
                   <li>
                     <a className="hover:text-blue-300" href="https://www.instagram.com/au_united_photography_club" target="_blank" rel="noopener noreferrer">
                       Contact Us
