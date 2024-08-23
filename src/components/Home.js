@@ -15,8 +15,8 @@ const Home = () => {
             <Link to="/membership" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full transition duration-300">
               Join Now
             </Link>
-            <Link to="/gallery" className="bg-transparent hover:bg-white hover:text-blue-600 text-white font-bold py-3 px-6 rounded-full border-2 border-white transition duration-300">
-              Explore Gallery
+            <Link to="https://forms.gle/ocXRiaHCJJVQ3L3C8" className="bg-transparent hover:bg-white hover:text-blue-600 text-white font-bold py-3 px-6 rounded-full border-2 border-white transition duration-300">
+              Suvery Form
             </Link>
           </div>
         </div>
@@ -105,8 +105,9 @@ const Home = () => {
     <p className="text-xl mb-8">
       The Official Cultural Club of Andhra University, Join us today and take your passion to the next level!
     </p>
-    <a 
-      href="https://www.andhrauniversity.edu.in/img/AU UNITED CLUB DOC.pdf" 
+          <a 
+            // https://www.andhrauniversity.edu.in/img/AU UNITED CLUB DOC.pdf
+      href="https://www.instagram.com/au_unitedclub_official/" 
       className="bg-white text-blue-600 hover:bg-blue-100 font-bold py-3 px-8 rounded-full text-lg transition duration-300"
       target="_blank" 
       rel="noopener noreferrer"
