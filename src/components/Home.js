@@ -15,8 +15,8 @@ const Home = () => {
             <Link to="/membership" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full transition duration-300">
               Join Now
             </Link>
-            <Link to="https://forms.gle/ocXRiaHCJJVQ3L3C8" className="bg-transparent hover:bg-white hover:text-blue-600 text-white font-bold py-3 px-6 rounded-full border-2 border-white transition duration-300">
-              Suvery Form
+            <Link to="https://www.instagram.com/au_united_photography_club" target='_blank' className="bg-transparent hover:bg-white hover:text-blue-600 text-white font-bold py-3 px-6 rounded-full border-2 border-white transition duration-300">
+              Contact
             </Link>
           </div>
         </div>
