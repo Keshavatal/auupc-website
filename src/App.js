@@ -27,8 +27,8 @@ const App = () => {
                 <NavLink to="/about">About</NavLink>
                 <NavLink to="/membership">Membership</NavLink>
                 <NavLink to="/gallery">Gallery</NavLink>
-                <a href="https://forms.gle/ocXRiaHCJJVQ3L3C8" target="_blank" rel="noopener noreferrer">
-                  Survey
+                <a href="https://www.instagram.com/au_united_photography_club" target="_blank" rel="noopener noreferrer">
+                  Contact
                 </a>
               </nav>
               <button className="md:hidden" onClick={toggleMenu}>
@@ -45,7 +45,7 @@ const App = () => {
               <MobileNavLink to="/about" onClick={toggleMenu}>About</MobileNavLink>
               <MobileNavLink to="/membership" onClick={toggleMenu}>Membership</MobileNavLink>
               <MobileNavLink to="/gallery" onClick={toggleMenu}>Gallery</MobileNavLink>
-              <MobileNavLink to="https://forms.gle/ocXRiaHCJJVQ3L3C8" target="_blank" onClick={toggleMenu}>Survey</MobileNavLink>
+              <MobileNavLink to="https://www.instagram.com/au_united_photography_club" target="_blank" onClick={toggleMenu}>Contact</MobileNavLink>
             </div>
           </div>
         )}
@@ -73,7 +73,6 @@ const App = () => {
                   <li><Link to="/about" className="hover:text-blue-300">About Us</Link></li>
                   <li><Link to="/membership" className="hover:text-blue-300">Join AUUPC</Link></li>
                   <li><Link to="/gallery" className="hover:text-blue-300">Gallery</Link></li>
-                  <li><Link to="https://forms.gle/ocXRiaHCJJVQ3L3C8" className="hover:text-blue-300">Survey Form</Link></li>
                   <li>
                     <a className="hover:text-blue-300" href="https://www.instagram.com/au_united_photography_club" target="_blank" rel="noopener noreferrer">
                       Contact Us
